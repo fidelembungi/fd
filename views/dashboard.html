@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="../Assets/bootstrap-5.3.3-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../Assets/css/styles.css" rel="stylesheet">
+    <title>Fidèle MBUNGI Admin</title>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Barre latérale -->
+            <div class="col-md-3 col-lg-2 sidebar">
+                <h4 class="p-3 text-light h3">YEBAKIN</h4>
+                <a href="#">🏠 Accueil</a>
+                <!-- <a href="#">📊 Tableau de bord</a>
+                <a href="#">👤 Mon profil</a>
+                <a href="#">🖼️ Événements</a>
+                <a href="#">⚙️ Paramètres</a>
+                <a href="logout.php">🔓 Déconnexion</a> -->
+            </div>
+
+            <!-- Contenu principal -->
+            <div class="col-md-9 col-lg-10 p-4">
+                <h2>Bienvenue, Fidèle 👋</h2>
+                <div class="" id="answer">
+
+                </div>
+                <div class="row mt-4" id="listMessages">
+                    
+                </div>
+
+                <!-- Autres sections -->
+                <!-- <div class="mt-5">
+                    <h4>Dernières activités</h4>
+                    <ul class="list-group">
+                        <li class="list-group-item">Rose a ajouté un événement.</li>
+                        <li class="list-group-item">Fidèle s’est connecté.</li>
+                        <li class="list-group-item">Nouvel utilisateur : John Doe.</li>
+                    </ul>
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+    <script src="../Assets/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../Assets/bootstrap-5.3.3-dist/js/jquery.js"></script>
+    <script src="../controller/scripts.js"></script>
+    <script>
+        window.onload = function (){
+            chargerMessage();
+        }
+    </script>
+</body>
+</html>

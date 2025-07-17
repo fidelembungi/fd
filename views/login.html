@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="stylesheet" href="../Assets/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../Assets/icons/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../Assets/css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fidele web | Connexion</title>
+</head>
+<body class="bg-light bg-opacity-25">
+    <div>
+
+    </div>
+    <div class="container-fluid h-100 d-flex justify-content-center align-items-center">
+        <div id="connect-center" class="justify-content-center align-items-center">
+            <div class="row d-flex justify-content-center align-items-center">
+                
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="card shadow-lg">
+                        <div class="card-header nav-bg text-center connecter-header">
+                            <span class="lead text-light ">
+                                <b>
+                                    Connectez-vous par ici
+                                </b>
+                            </span>
+                        </div>
+                        <div class="card-body">
+                            <div id="answer">
+
+                            </div>
+                            <div class="input-group py-2">
+                                <div class="input-group-text connecter-header text-light">
+                                    <i class="fa fa-user"></i>
+                                </div>
+                                <input type="text" name="username" id="username" placeholder="Nom d'utilisateur" class="form-control">
+                            </div>
+                            <div class="input-group py-2">
+                                <div class="input-group-text connecter-header text-light">
+                                    <i class="fa fa-lock"></i>
+                                </div>
+                                <input type="password" name="mdp" id="mdp" placeholder="Mot de passe" class="form-control">
+                            </div>
+                        </div>
+                        <div class="card-footer nav-bg text-center">
+                            <button class="btn btn-primary bg-primary" onclick="connection();">
+                                <i class="fa fa-sign-in"> </i>
+                                <span> Se Connecter </span>
+                            </button>
+                            <a href="../formation.html" class="btn btn-danger bg-danger">
+                                <i class="fa fa-undo"> </i>
+                                <span> Retour </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../Assets/bootstrap-5.3.3-dist/js/bootstrap.bundle.js"></script>
+    <script src="../Assets/bootstrap-5.3.3-dist/js/jquery.js"></script>
+    <script src="../controller/scripts.js"></script>
+    <script>
+        window.onload = function(){
+            foc();
+        }
+    </script>
+</body>
+</html>
