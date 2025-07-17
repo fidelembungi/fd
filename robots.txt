@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://fidelembungi.github.io/fd/sitemap.xml
